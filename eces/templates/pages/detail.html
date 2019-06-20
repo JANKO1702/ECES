@@ -1,0 +1,28 @@
+{% extends 'liens/index.html' %}
+
+{% block content %}
+
+<div class="content">
+  <div class="detail-content">
+  <div class="detail-phone">
+    <img src="{{object.image.url}}">
+  </div>
+
+  <div class="detail">
+
+    Matricule: {{object.matricule}}<br><br>
+    Nom: {{object.nom}}<br><br>
+    Prenom: {{object.prenom}}<br><br>
+    Adresse: {{object.adresse}}<br><br>
+    Sexe: {{object.sexe}}<br><br>
+    Option: {{object.option}}<br><br>
+    Niveau: {{object.niveau}}<br><br>
+    Telephone: {{object.télephone}}<br><br>
+    Description: {{object.description}}
+
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}

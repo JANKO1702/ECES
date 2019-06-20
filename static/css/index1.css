@@ -1,0 +1,137 @@
+@media only screen and (max-width: 400px) {
+  body{
+    background-color: #f1f1f1;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  .corps{
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300%;
+  }
+
+  img{
+    height: 450px;
+    width: 60%;
+    margin-top: -600px;
+    padding-bottom: -7px;
+  }
+
+  .liste_etudiant{
+    text-align: center;
+    margin-top: -470px;
+    background-color: white;
+  }
+
+  .liste{
+    height: 495px;
+  }
+
+  .detail-content{
+    margin-bottom:0px;
+    height: 10px;
+  }
+  
+  .detail-phone{
+    width: 95%;
+    height: 0px;
+  }
+  
+  .detail{
+    margin-right: 0px;
+    padding-left: 200px;
+    font-size: 14px;
+  }
+
+  h2{
+    margin-top: -430px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  p{
+    font-size: 12px;
+    margin:
+  }
+
+  .content{
+    padding-top: 500px;
+    margin-left: 20px;
+    width: 90%;
+    background-color: white;
+    color: black;
+  }
+
+  .en-tete{
+    border-bottom: 1px solid grey;
+    background-color: white;
+    width: 360px;
+  }
+
+  .introduction{
+    float: right;
+    margin-left: 210px;
+    margin-top: -60px;
+  }
+
+  .titre{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    width: 352px;
+  }
+
+  h1{
+    font-size: 16px;
+    margin-left: 20px;
+    font-family: ubuntu mono;
+  }
+
+  hr{
+    border: 1px solid grey;
+  }
+
+  .nav_bar{
+    float: right;
+    width: 355px;
+    background-color: white;
+    margin-right: -50px;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  .liste_etudiant li{
+    padding: 5px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .nav_bar li{
+    float: left;
+    list-style: none;
+    margin: 14px;
+  }
+
+  .nav_bar a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+
+  .pied{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:35px;
+  }
+
+}

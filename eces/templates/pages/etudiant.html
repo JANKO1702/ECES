@@ -1,0 +1,26 @@
+{% extends 'liens/index.html' %}
+
+{% block content %}
+
+<div class="content">
+  <div class="liste">
+  <div class="liste_etudiant">
+
+    <h3>Liste des étudiants</h3><br>
+
+    <ul>
+      {% for etudiant in liste %}
+
+        <li><a href= "{% url 'detail' etudiant.id %}">{{etudiant.matricule}} - {{etudiant.nom|upper}}</a></li>
+
+      {% empty %}
+        <p>La liste des etudiants est vide </p>
+
+      {% endfor %}
+    </ul>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}

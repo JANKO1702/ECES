@@ -1,0 +1,10 @@
+<h3>Liste des langages</h3>
+
+<ul>
+  {% for etudiant in liste %}
+    <li>{{etudiant}}</li>
+
+  {% empty %}
+    <p>La liste es etudiants est vide </p>
+  {% endfor %}
+</ul>
